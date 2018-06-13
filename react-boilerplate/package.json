@@ -1,0 +1,22 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic React boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cpdis/tools/tree/master/react-boilerplate"
+  },
+  "keywords": [
+    "Node",
+    "React"
+  ],
+  "author": "Colin Dismuke",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
