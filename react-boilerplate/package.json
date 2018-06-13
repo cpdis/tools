@@ -8,7 +8,7 @@
     "build-server": "babel src/server --out-dir ./dist",
     "build-client": "babel src/client --copy-files --out-dir ./dist/public",
     "start": "node ./dist/index.js",
-    "test" : "jest ./src"
+    "test": "jest ./src"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,14 @@
   "author": "Colin Dismuke",
   "license": "Apache-2.0",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "jest": "^23.1.0"
+    "jest": "^23.1.0",
+    "jest-cli": "^23.1.0"
   }
 }
