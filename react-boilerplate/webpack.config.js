@@ -13,21 +13,21 @@ loaders: [
 };
 
 const client = {
-entry: {
-    'client': './src/client/index.js',
-},
-target: 'web',
-output: {
-    filename: '[name].js',
-    path: path.resolve(__dirname, 'dist')
-},
-module: moduleObj
-plugins: [
-    new HtmlWebPackPlugin({
-      template: 'src/client/index.html'
-    })
-  ]
-};
+    entry: {
+      'client': './src/client/index.js'
+    },
+    target: 'web',
+    output: {
+      filename: '[name].js',
+      path: path.resolve(__dirname, 'dist/public')
+    },
+    module: moduleObj,
+    plugins: [
+      new HtmlWebPackPlugin({
+        template: 'src/client/index.html'
+      })
+    ]
+  }
 
 const server = {
 entry: {
